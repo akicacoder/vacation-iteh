@@ -17,7 +17,7 @@ class CreatePlacesTable extends Migration
             $table->id();
             $table->timestamps();
             $table->string('name');
-            $table->string('state');
+            $table->string('country');
         });
     }
 
